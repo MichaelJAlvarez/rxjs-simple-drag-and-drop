@@ -12,7 +12,7 @@ const mouseMoves$ = fromEvent(document, 'mousemove');
 const mouseUps$ = fromEvent(document, 'mouseup');
 
 const drags = mouseDowns$.pipe(
-  map((x) => {
+  map(() => {
     return mouseMoves$.pipe(takeUntil(mouseUps$))
   }),
   concatAll()
