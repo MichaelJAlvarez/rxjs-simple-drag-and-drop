@@ -7,7 +7,7 @@ const container = document.getElementById('parent');
 const draggable = document.getElementById('draggable');
 
 // Events
-const mouseDowns$ = fromEvent(document, 'mousedown');
+const mouseDowns$ = fromEvent(draggable, 'mousedown');
 const mouseMoves$ = fromEvent(document, 'mousemove');
 const mouseUps$ = fromEvent(document, 'mouseup');
 

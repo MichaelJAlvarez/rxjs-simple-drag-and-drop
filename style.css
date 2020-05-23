@@ -1,5 +1,7 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 #parent {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color:#cecece;
 }
@@ -7,7 +9,5 @@
 #draggable {
   text-align: center;
   position: absolute;
-  width: 200px;
-  height: 50px;
   background-color: pink;
 }
