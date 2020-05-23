@@ -1,9 +1,13 @@
 #parent {
-  height: 500px;
+  height: 100vh;
   width: 100%;
-  background-color:#696868;
+  background-color:#cecece;
 }
 
 #draggable {
+  text-align: center;
   position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: pink;
 }
